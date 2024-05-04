@@ -18,7 +18,7 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "@swc/helpers":"",
+    "@swc/helpers": "^0.5.11",
     "axios": "^1.6.8",
     "modern-normalize": "^1.1.0",
     "notiflix": "^3.2.7",
@@ -31,6 +31,5 @@
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead",
-  "main": "index.js"
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
