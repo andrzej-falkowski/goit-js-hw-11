@@ -19,6 +19,7 @@ let perPage = 40;
 searchForm.addEventListener('submit', event => {
   event.preventDefault();
   resultsGallery.innerHTML = '';
+  pageNum = 1;
   loadMore.style.display = 'none';
   searchQuery = event.currentTarget.elements.searchQuery.value;
   console.log(searchQuery);
